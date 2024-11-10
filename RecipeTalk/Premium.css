@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to bottom right ,#CBCE91,#364B44);
+    color: white;
+}
+
+.heading{
+    margin-left: 600px;
+    margin-top: 10px;
+    color: blueviolet;
+    text-decoration: underline dotted 4px yellow;
+}
+
+.rupees{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-family: cursive;
+    font-weight: bold;
+    color: burlywood;
+    font-size: large;
+}
+
+.rupees i{
+    margin-left: 5px;
+    color:grey;
+}
+
+.gold ul{
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.Unlocked{
+    margin-left: 130px;
+    margin-top: 10px;
+}
+
+ul li:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    background-color: black;
+    height: 200px;
+    width: 900px;
+    margin-left: 300px;
+    margin-top: 30px;
+    border: solid blueviolet;
+    border-radius: 20px;
+    filter: drop-shadow(0px 0px 12px blueviolet);
+}
+
+.button {
+    margin-left: 200px;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.button div{
+    padding-top: 20px;
+}
+
+.button button{
+    font-family: cursive;
+    font-size: medium;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: solid blueviolet 1.5px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+button a:hover{
+    background-color:#121212;
+    color:darkgoldenrod;
+}
+
+
+
+
+

@@ -1,0 +1,166 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#search{
+    background-color: #121212;
+    height: 50px;
+    display: flex;
+}
+
+
+#navlist{
+    display: flex;
+}
+
+#searchbar{
+    height: 30px;
+    display: flex;
+    margin-top:10px;
+    margin-left: 330px;
+}
+
+#searchbar input{
+    width: 350px;
+    background-color:black;
+    color: white;
+    border: solid blueviolet 2px;
+    border-radius: 5px;
+}
+
+#recipe{
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+#selectrecipe{
+    color: blueviolet;
+    font-size: medium;
+    border:solid blueviolet 2px;
+    padding-left: 3px;
+    border-radius: 5px;
+    font-family: cursive;
+    background-color: black;
+}
+
+#selectrecipe:hover{
+    color: burlywood;
+}
+
+#navlist a{
+    text-decoration: none;
+    color:blueviolet;
+    font-family: cursive;
+}
+
+#navlist div{ 
+    padding-top: 15px;
+    margin-left: 40px;
+}
+
+#navlist div:hover{
+    background-color:white;
+    
+}
+
+#user i{
+    color: blueviolet;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 40px;
+    opacity: 2;
+}
+
+#user i:hover{
+    color: burlywood;
+
+}
+
+#cart i{
+    color: blueviolet;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 40px;
+    opacity: 2;
+}
+
+#cart i:hover{
+    color: burlywood;
+}
+
+#navitems div:hover{
+    background-color:blueviolet;
+}
+
+.Veg{
+    font-family:cursive;
+    color:burlywood;
+    margin-left: 40px;
+    margin-bottom:40px;
+    margin-top: 30px;
+    margin-right: 40px;
+    text-align: center;
+    filter:drop-shadow(0px 0px 12px blueviolet);
+    border: solid 0px #121212;
+    border-radius: 20px;
+    background-color: #121212;
+}
+
+.veg{
+    display: flex;
+    margin-left: 30px;
+   justify-content: space-around;
+   margin-bottom:50px;
+   filter: drop-shadow(0px 0px 12px blueviolet);
+}
+
+.veg .dish{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border: solid blueviolet;
+    border-radius: 20px;
+    color:burlywood;
+}
+
+.veg .dish:hover{
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+}
+
+.dishname{
+    padding-top: 15px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.veg img{
+    padding-left: 45px;
+    padding-top: 15px;
+}
+
+.button button{
+    margin-left: 10px;
+    margin-top: 10px;
+    border: solid burlywood;
+    border-radius: 10px;
+    padding: 2px;
+    font-family: cursive;
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+}
+
+#footer{
+    height: 50px;
+    margin-top:60px;
+    background-color:#121212;
+    color: beige;
+    text-align: center;
+    padding-top: 16px;
+}
+
+

@@ -1,0 +1,162 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 2000px;
+    background-image: linear-gradient(to bottom right ,#CBCE91,#364B44);
+    /* border-image: fill 0 linear-gradient(#0001,#111); */
+}
+
+.about{
+    height: 50px;
+    background-color: white;
+    box-shadow: 0px 0px 12px;
+    display: flex;
+    background-color: #111;
+}
+
+.navitems{
+    margin-left: 850px;
+    margin-top: 13px;
+}
+
+.navitems a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: burlywood;
+}
+
+.navitems a:hover{
+    color: aliceblue;
+}
+
+.Mission{
+    width: 450px;
+    padding: 50px;
+}
+
+.our_mission{
+    padding-left: 90px;
+    text-decoration: underline yellow;
+}
+
+.mission_statement{
+    padding-top: 20px;
+    font-size:large;
+    font-weight: 500;
+}
+
+.mission_statement span{
+    color:yellow;
+}
+
+.flex1{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 160px;
+    background-color: #D64161;
+    border-radius: 20px;
+    width: 1200px;
+}
+
+.d_border1{
+    filter: drop-shadow(0px 0px 12px aqua);
+}
+
+.line1{
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+.Story{
+    width: 550px;
+    padding: 50px;
+    margin-left: 70px;
+}
+
+.our_story{
+    text-decoration: underline yellow;
+}
+
+.story_statement{
+    padding-top: 20px;
+    font-size:large;
+    font-weight: 500;
+}
+
+.story_statement span{
+    color:yellow;
+}
+
+.flex2{
+    display: flex;
+    margin-top: 20px;
+    background-color: aqua;
+    border-radius: 20px;
+    width: 1200px;
+    height:500px;
+    margin-left: 160px;
+}
+
+.d_border2{
+    margin-top: 150px;
+    /* background-image: linear-gradient(#CBCE91, #D64161); */
+    margin-left: 200px;
+}
+
+
+
+.joinus{
+    margin-top: 50px;
+    background-color:burlywood;
+    width: 1200px;
+    margin-left: 160px;
+    border-radius: 20px;
+    height: 400px;
+}
+
+.heading{
+    padding-top: 50px;
+    margin-left: 500px;
+    text-decoration: underline 3px yellow;
+}
+
+.join_statement{
+    width: 450px;
+    padding-top: 50px;
+    margin-left: 400px;
+    font-size: large;
+}
+
+.button{
+    margin-top: 40px;
+    margin-left: 510px;
+}
+
+.button button{
+    height: 40px;
+    padding: 10px;
+    background-color: red;
+    font-family: cursive;
+}
+
+.button button:hover{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+.button .b2{
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+

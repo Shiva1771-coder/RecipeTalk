@@ -1,0 +1,54 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.linear{
+    height: 700px;
+    background-image: linear-gradient(to bottom right ,#CBCE91,#364B44);
+    color: white;
+    padding-top: 180px;
+}
+
+.registration h2{
+    color: burlywood;
+}
+
+.registration{
+    background-color:gray;
+    border: solid 2px;
+    box-shadow: 0px 0px 12px;
+    padding-bottom: 25px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 440px;
+}
+
+.registration input, select, button{
+    border: solid black 1px;
+    color:black;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.registration div{
+    margin-top: 10px;
+}
+
+button a{
+    text-decoration: none;
+    color:black;
+    padding: 5px;
+}
+
+button{
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color:darkseagreen;
+}
+
+
+
